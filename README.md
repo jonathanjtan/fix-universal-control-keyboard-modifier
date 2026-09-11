@@ -183,6 +183,7 @@ kill -HUP "$(pgrep -f ucmodswap.app)"
 - `ucmodswap.swift` — the daemon
 - `install.sh` — build, sign, install the LaunchAgent; `--uninstall` to remove
 - `config.example.json` — the default config, copied to `~/.config/ucmodswap/`
+- `APPLE-FEEDBACK.md` — a bug report for Apple; this should be fixed in the OS
 - `install-ucmodswap.sh` — **superseded, does not work.** The first attempt,
   built on `hidutil`. Kept because the "Why the obvious approaches don't work"
   section above is the record of why it can't; don't run it.
