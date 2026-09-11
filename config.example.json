@@ -1,0 +1,6 @@
+{
+  "_comment": "swapPattern is a case-insensitive regex tested against the originating device's row in `hidutil list`. Universal Control publishes its devices as 'V-<original name>'. The negative lookahead skips Apple keyboards shared over Universal Control -- those already have Mac modifier placement and must not be swapped. Edit and `kill -HUP` the daemon to reload without rebuilding.",
+  "swapPattern": " V-(?!Apple)",
+  "learnOnly": false,
+  "refreshSeconds": 3
+}
